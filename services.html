@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr" class="theme-light">
+<head>
+  <title>Hizmetler — KARA COMPANY</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#E62440">
+  <meta name="description" content="KARA Co. — Modern, sade ve Apple disiplininde web deneyimleri.">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar" role="banner">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand" aria-label="KARA COMPANY anasayfa">
+        <img src="assets/icons/logo.svg" alt="KARA Co. Logo" class="brand-logo" />
+        <span class="brand-text">KARA COMPANY</span>
+      </a>
+      <nav class="nav" role="navigation" aria-label="Ana menü">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Menüyü aç/kapat">
+          <span></span><span></span><span></span>
+        </button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="about.html">Hakkımızda</a></li>
+          <li><a href="services.html">Hizmetler</a></li>
+          <li><a href="contact.html">İletişim</a></li>
+          <li><button id="theme-toggle" class="btn btn--ghost small" aria-pressed="false" aria-label="Tema değiştir">🌙</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="content" class="site-main">
+    <section class="section page-hero" data-reveal>
+      <div class="container">
+        <h1 class="display-sm">Hizmetler</h1>
+        <p class="lead">İhtiyacınıza göre modüler, ölçeklenebilir çözümler.</p>
+      </div>
+    </section>
+
+    <section class="section" data-reveal id="ambalaj">
+      <div class="container grid grid-2">
+        <div class="card tilt">
+          <h3>Ambalaj Çözümleri</h3>
+          <p>Stratejiden üretime, çevreci ve estetik ambalaj tasarımları.</p>
+        </div>
+        <div class="card">
+          <h3>Proses</h3>
+          <ol class="steps">
+            <li>Keşif & Brif</li>
+            <li>Tasarım Keşifleri</li>
+            <li>Revizyon & Onay</li>
+            <li>Teslim</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-reveal id="danismanlik">
+      <div class="container grid grid-2">
+        <div class="card tilt">
+          <h3>Marka Danışmanlığı</h3>
+          <p>Konumlandırma, dil, görsel kimlik; ölçülebilir çıktılarla.</p>
+        </div>
+        <div class="card">
+          <h3>Çıktılar</h3>
+          <ul class="bullets">
+            <li>Marka kılavuzu</li>
+            <li>Sosyal medya setleri</li>
+            <li>Kampanya mesaj haritası</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-reveal id="dijital">
+      <div class="container grid grid-2">
+        <div class="card tilt">
+          <h3>Dijital Tasarım</h3>
+          <p>Web, landing page, e-ticaret, e-mail setleri.</p>
+        </div>
+        <div class="card">
+          <h3>Teknoloji</h3>
+          <ul class="bullets">
+            <li>HTML/CSS/JS (hafif ve hızlı)</li>
+            <li>GSAP/Intersection Observer ile animasyon</li>
+            <li>Erişilebilirlik ve SEO odaklı</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/icons/logo.svg" alt="KARA Co. Logo" class="brand-logo small" />
+        <div>
+          <strong>KARA Co.</strong><br />
+          Modern çözümler, sade tasarımlar.
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/karaco.tr" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+        <a href="https://www.tiktok.com/@karaco.tr" target="_blank" rel="noopener" aria-label="TikTok">TikTok</a>
+        <a href="https://www.youtube.com/@KARACo-tr" target="_blank" rel="noopener" aria-label="YouTube">YouTube</a>
+      </div>
+      <div class="footer-contact">
+        <div><b>E:</b> <a href="mailto:karaco.tr@gmail.com">karaco.tr@gmail.com</a></div>
+        <div><b>T:</b> <a href="tel:+905418188398">+90 541 818 83 98</a></div>
+        <div><b>A:</b> Mavi Göl Apartmanı, Yeşilyurt, 70027. Sk. No:3/C A blok, 01150 Seyhan/Adana</div>
+      </div>
+    </div>
+    <div class="container footer-note">© 2025 KARA COMPANY — Tüm Hakları Saklıdır.</div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
